@@ -10,7 +10,7 @@ export default class Input {
     this.locale =
       this.element.getAttribute(`lang`)
       || document.body.getAttribute(`lang`)
-      || `en`;
+      || `ja`;
 
     this.format = this.element.getAttribute('date-format')
       || document.body.getAttribute('date-format')
