@@ -325,7 +325,7 @@ class Picker {
   }
 
   static absoluteDate(date) {
-    return date && new Date(date.getTime() + date.getTimezoneOffset()*60*1000);
+    return date;// && new Date(date.getTime() + date.getTimezoneOffset()*60*1000);
   }
 }
 
